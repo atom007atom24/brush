@@ -2,10 +2,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        GroupAnagramsAL groupAnagramsAL = new GroupAnagramsAL();
-        String []str = new String[]{"bdddddddddd","bbbbbbbbbbc"};
-        List<List<String>> retList = groupAnagramsAL.groupAnagrams(str);
-        System.out.println(String.valueOf(retList));
+        String str = "abcabcbb";
+        LengthOfLongestSubstringAL lengthOfLongestSubstringAL = new LengthOfLongestSubstringAL();
+        int ret = lengthOfLongestSubstringAL.lengthOfLongestSubstring(str);
+        System.out.println(ret);
 
     }
 
