@@ -4,6 +4,12 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class FindLUSlengthAL {
+	/*
+	String []strs = new String[] {"aabbcc", "aabbcc","cb"};
+        FindLUSlengthAL findLUSlengthAL = new FindLUSlengthAL();
+        int result = findLUSlengthAL.findLUSlength(strs);
+        System.out.println(result);
+	 */
 	/**
 	 *
 	 * @param strs
